@@ -2,29 +2,29 @@ pipeline {
     agent any
 
     stages {
-        stage('BuildTestEnv') {
+        stage('BuildFeature1Env') {
             steps {
-                echo 'BuildingTestEnv..'
+                echo 'BuildingFeature1Env..'
             }
         }
-        stage('TestTestEnv') {
+        stage('TestFeature1Env') {
             steps {
-                echo 'TestingTestEnv..'
+                echo 'TestingFeature1Env..'
             }
         }
-        stage('DeployTestEnv') {
+        stage('DeployFeature1Env') {
             steps {
-                echo 'DeployingTestEnv....'
+                echo 'DeployingFeature1Env....'
             }
         }
-        stage('CheckTestEnv') {
+        stage('CheckFeature1Env') {
             steps {
-                echo 'CheckingTestEnv....'
+                echo 'CheckingFeature1Env....'
             }
         }
-        stage('RunTestEnv') {
+        stage('RunFeature1Env') {
             steps {
-                echo 'RunningTestEnv....'
+                echo 'RunningFeature1Env....'
             }
         }
     }
